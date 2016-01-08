@@ -1,0 +1,639 @@
+    * {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;}
+         
+    
+         
+         html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+         
+         article {
+             width: 75%;
+            padding: 0em
+        }
+        
+         
+         
+        body{
+            font-size: 100%;
+            font-family:'Crimson Text', sans-serif; 
+            margin: 0;
+            background-color: white;
+            color:slategrey;
+            line-height: 3vh;
+            }
+         
+         
+
+         
+         
+        
+   /* ---------------------------------- TYPOGRAPHY ----------------------------- */   
+         
+         
+
+        h1, h2, h3 {
+            font-weight: normal;
+            font-family: 'Oswald',serif;
+            color: black;
+            text-align: center;
+        }
+        
+        h1 {font-size: 15vh;
+            padding: 4vh;
+        line-height: 20vh;}
+        
+        h2 {font-size: 5vh;
+            padding: 4vh;
+        line-height: 6vh}
+        
+        h3 {font-size: 5vh;
+            padding: 1vh;
+        line-height: 6vh;}
+      
+         p {padding: 2vh;
+             line-height: 3vh;
+         font-family: Quattrocento;
+             align-content: center;}
+         
+
+         
+        article {
+            text-align: center;
+            margin: auto;
+        }
+
+        
+        
+        blockquote {
+            padding: 4vh 0;
+            font-size: 3vh;
+            line-height: 6vh;
+            margin: 0;
+        }
+         
+        blockquote p {
+            hanging-punctuation: first;
+            line-height: 6vh;
+}
+        
+        blockquote cite {
+                font-size: 3vh;font-family: Quattrocento; 
+        }
+   
+         
+/*------------LINKS----------------------*/
+         
+          a {
+        color: slategray;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+        color: darkgrey;
+            border-bottom: .2vh dotted;
+        }
+         
+
+/*------------ Header image --------------*/
+         
+         
+         header img {
+             position: inherit;
+             padding: 0;
+             margin: 0;
+  
+             height: 100vh;
+             vertical-align: bottom;}
+
+
+
+
+#intronav {position: absolute;
+    float: left;
+height: 37vh;
+    width: 24vh;
+top: 42vh;
+left: 17.5vh;
+z-index: 2;}
+
+
+
+
+#careerimg {position: absolute;
+width: 16vh;
+height: 10vh;
+left: 40.6vh;
+top: 53vh;
+z-index: 2;}
+
+#influencesimg {position: absolute;
+height: 14vh;
+left: 34vh;
+top: 85vh;
+width: 30vh;
+z-index: 2;}
+
+#controversyimg {position: absolute;
+height: 35vh;
+    width: 26vh;
+top: 43vh;
+left: 57.5vh;
+    z-index: 2;
+}
+
+#nav {position: absolute;
+float: inherit;}
+
+body {position: absolute;
+float: inherit;}
+
+#staticimg { 
+    position: absolute;
+    left: -1.01vh;
+    opacity: 0.4;
+}
+
+         
+ /*---------------FOOTER-----------------*/
+           footer {
+            line-height: 3vh;
+            padding-bottom: 4vh;
+        }
+         
+         ul {list-style: none;
+         }
+         
+         
+/*----------------Background blocks and text alignment---------*/
+         
+#sagmeister1 {background-size: cover;}
+       
+         #intro-background {
+             height: 100vh;
+             background-color: yellow;
+             
+             }
+
+         
+         
+         #intro-background h1 {
+             padding-top: 20vh;
+             padding-bottom: 2vh;
+             }
+
+        #intro-background h2 {
+            background: black;
+            color: white;
+        padding bottom: 2vh;}
+
+        #intro-background hr {
+            margin-top: 2em;}
+
+        #intro-background p {
+            color: black;}
+
+         #quote1{
+             height: 100vh;
+             background-image: url(/Images/HappyShow2.jpg); 
+             background-size: cover;
+             align-content: center;
+             }
+         
+         #quote1 blockquote{
+             padding-top: 30vh;
+         background-color: black;
+         background-clip: content-box;
+         font-size: 3.5vh;
+         color: white;
+         opacity: 0.9;}
+         
+         
+             #introduction {
+                 height: 100vh;
+             background-color: yellow; 
+                 align-content: center;
+                 }
+#introduction p {color: black;}
+         
+         #introduction h3 {
+             padding-top: 27vh; }
+         
+         #career { height: 100vh;
+             background-color: lightgray; 
+             align-content: center;}
+         
+         #career h3 {padding-top: 30vh;}
+         
+         #quote2 {height: 100vh;
+             min-width: 100%;
+             background-image: url(/Images/sagmeister-body-background.jpg); 
+             background-size: cover;
+             background-position: center;
+              }
+         
+         #quote2 blockquote{
+             padding-top: 32vh;
+         color: white;
+             font-size: 3.5vh;
+         background-color: black;
+         background-clip: content-box;
+         opacity: 0.85;}
+
+#quote2 cite {align-content: center;}
+         
+         #controversy1 {height: 100vh;
+             background-color: yellow; 
+             align-content: center;}
+         
+         #controversy1 h3 {padding-top:18vh}
+            
+#controversy1 p {color: black;}
+         
+         #controversy2 {height: 100vh;
+             background-color: lightgray;
+             align-content: center;}
+
+
+         
+         #controversy2 h3 {padding-top: 27vh;}
+         
+         #quote3 {height: 100vh;
+             background-color: yellow; 
+             align-content: center;}
+         
+         #quote3 blockquote {font-family: Quattrocento;
+         padding-top: 28vh;
+         color: black;
+         font-size:3.5vh;}
+         
+            #quote3 {
+            background: url(/Images/banana-wall.jpg);
+             position: inherit;
+            
+             padding: 0;
+             margin: 0;
+  
+             height: 100vh;
+             vertical-align: bottom;
+             }
+
+#quote3 blockquote {color: white;
+    background: black;
+background-clip: content-box;
+opacity: 0.85;}
+
+         
+         #controversy3 {height: 100vh;
+             background-color: yellow; 
+             align-content: center;}
+         
+         #controversy3 h3 {padding-top: 37vh;}
+
+#controversy3 p {color: black;}
+         
+         #influences {height: 100vh;
+             background-color: lightgray;
+             align-content: center;}
+
+         
+         #influences h3 {padding-top: 25vh;}
+         
+         #bibliography {height: 100vh;
+             background-color: black; 
+             align-content: center;}
+         
+         #bibliography h3 {padding-top: 16vh;}
+
+hr {color: white;
+    border-style: solid;
+    height: 0.4vh;
+    max-height: 0.5vh;
+    background: white;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+width: }
+
+
+
+
+/*-----------ON-PAGE MENU-----------------------*/
+
+
+
+
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  width: auto;
+  border: 3px solid #000;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  background: #f7f7f7;
+  box-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+#cssmenu > ul {
+  background: url('images/bg.png');
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 10px 25px;
+  font-size: 14px;
+    height: 14px;
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+#cssmenu #menu-indicator {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+#cssmenu.small-screen {
+  width: 100%;
+}
+#cssmenu.small-screen > ul,
+#cssmenu.small-screen.align-center > ul {
+  width: 100%;
+  text-align: left;
+}
+#cssmenu.small-screen > ul > li,
+#cssmenu.small-screen.align-center > ul > li {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+}
+#cssmenu.small-screen > ul > li > a {
+  padding: 18px 25px;
+}
+#cssmenu.small-screen > ul > li:after,
+#cssmenu.small-screen > ul > li:before {
+  display: none;
+}
+#cssmenu.small-screen #menu-button {
+  display: block;
+  padding: 18px 25px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444444;
+  );
+}
+#cssmenu.small-screen #menu-button.menu-opened {
+  color: #444444;
+}
+#cssmenu.small-screen #menu-button:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 19.5px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 18px;
+  height: 3px;
+}
+#cssmenu.small-screen #menu-button.menu-opened:after {
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
+}
+#cssmenu.small-screen #menu-button:before {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 29.5px;
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #000;
+}
+#cssmenu.small-screen #menu-button.menu-opened:before {
+  background: #444444;
+}
+#cssmenu.small-screen #menu-indicator {
+  display: none;
+}
+
+#cssmenu {margin: 5px;
+position: absolute;
+}       
+
+#cssmenu a:hover { border-bottom: 0px none;
+color: black;
+    transition: all 0.25s ease-out;
+}
+
+/*---------------NAV INTERACTIVITY ------------------*/
+     
+#intronav {opacity: 0.5;
+transition: all 0.25s ease-out;}
+#intronav:hover {opacity: 0.9;
+transition: all 0.25s ease-in;}
+
+#careerimg {opacity: 0.5;
+transition: all 0.25s ease-out;}
+#careerimg:hover {opacity: 0.9;
+transition: all 0.25s ease-in;
+}
+
+#influencesimg {opacity: 0.5;
+transition: all 0.25s ease-out;}
+#influencesimg:hover {opacity: 0.9;
+transition: all 0.25s ease-in;}
+
+#controversyimg {opacity: 0.5;
+transition: all 0.25s ease-out;}
+#controversyimg:hover {opacity: 0.9;
+transition: all 0.25s ease-in;}
+
+#cssmenu {z-index: 1;
+    opacity: 0.7;
+    transition: all 0.25s ease-out;
+}
+
+#cssmenu:hover {opacity: 1.0;
+transition: all 0.25s ease-in;}
+
+#sagmeister1 {max-height: 100vh;
+min-height: 100vh;}
+
+
+
+
+/*-------- on page menu for bibliography ---------*/
+
+#cssmenu2 #menu-button {
+  display: none;
+}
+#cssmenu2 {
+  width: auto;
+  border: 3px solid;
+    border-color: slategray;
+  border-radius: 3px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  background: #f7f7f7;
+  box-shadow: 1px 1px 0 #000, 2px 2px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+#cssmenu2 > ul {
+  background: url('images/bg.png');
+}
+#cssmenu2 > ul > li {
+  float: left;
+}
+#cssmenu2.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu2.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu2.align-right > ul > li {
+  float: right;
+}
+#cssmenu2 > ul > li > a {
+  padding: 10px 25px;
+  font-size: 14px;
+    height: 14px;
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+#cssmenu2 #menu-indicator {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+#cssmenu2.small-screen {
+  width: 100%;
+}
+#cssmenu2.small-screen > ul,
+#cssmenu2.small-screen.align-center > ul {
+  width: 100%;
+  text-align: left;
+}
+#cssmenu2.small-screen > ul > li,
+#cssmenu2.small-screen.align-center > ul > li {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+}
+#cssmenu2.small-screen > ul > li > a {
+  padding: 18px 25px;
+}
+#cssmenu2.small-screen > ul > li:after,
+#cssmenu2.small-screen > ul > li:before {
+  display: none;
+}
+#cssmenu2.small-screen #menu-button {
+  display: block;
+  padding: 18px 25px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444444;
+  );
+}
+#cssmenu2.small-screen #menu-button.menu-opened {
+  color: #444444;
+}
+#cssmenu2.small-screen #menu-button:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 19.5px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 18px;
+  height: 3px;
+}
+#cssmenu2.small-screen #menu-button.menu-opened:after {
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
+}
+#cssmenu2.small-screen #menu-button:before {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 29.5px;
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #000;
+}
+#cssmenu2.small-screen #menu-button.menu-opened:before {
+  background: #444444;
+}
+#cssmenu2.small-screen #menu-indicator {
+  display: none;
+}
+
+#cssmenu2 {margin: 5px;
+position: absolute;
+}       
+
+#cssmenu2 a:hover { border-bottom: 0px none;
+color: black;
+    transition: all 0.25s ease-out;
+}
+
+
+#cssmenu2 {z-index: 1;
+    opacity: 0.7;
+    transition: all 0.25s ease-out;
+}
+
+#cssmenu2:hover {opacity: 1.0;
+transition: all 0.25s ease-in;}
