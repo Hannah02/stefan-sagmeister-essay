@@ -271,7 +271,7 @@ float: inherit;}
          font-size:3.5vh;}
          
             #quote3 {
-            background: url ("banana-wall.jpg");
+            background-image: url(/Images/banana-wall.jpg);
              position: inherit;
             
              padding: 0;
