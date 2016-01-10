@@ -198,7 +198,7 @@ float: inherit;}
 
          #quote1{
              height: 100vh;
-             background-image: url(Images/HappyShow2.jpg); 
+             background-image: url(/Images/HappyShow2.jpg); 
              background-size: cover;
              align-content: center;
              }
@@ -230,7 +230,7 @@ float: inherit;}
          
          #quote2 {height: 100vh;
              min-width: 100%;
-             background-image: url(Images/sagmeister-body-background.jpg); 
+             background-image: url(/Images/sagmeister-body-background.jpg); 
              background-size: cover;
              background-position: center;
               }
@@ -271,7 +271,7 @@ float: inherit;}
          font-size:3.5vh;}
          
             #quote3 {
-            background-image: url(Images/banana-wall.jpg);
+            background-image: url(/Images/banana-wall.jpg);
              position: inherit;
             
              padding: 0;
